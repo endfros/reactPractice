@@ -1,0 +1,67 @@
+*{
+  background-color: rgb(1,0,1);
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.news{
+  margin-top: 50px;
+  background-color: rgb(22,25,29);
+  border-radius: 10px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 22vw;
+  transition: 0.3s;
+}
+
+.news__info{
+  background-color: rgb(22,25,29);
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.news__info-opacity-60{
+  background-color: rgb(22,25,29);
+  color: hsla(0, 0%, 100%, 0.60);
+  line-height: 50%;
+  transition: 0.3s;
+}
+
+.news__info-bold{
+  background-color: rgb(22,25,29);
+  font-weight: bold;
+  line-height: 50%;
+  transition: 0.3s;
+}
+
+.news__image{
+  display: inline-block;
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+
+.news:hover{
+  background-color: rgb(33,33,36);
+  transition: 0.3s;
+}
+
+.news:hover section{
+  background-color: rgb(33,33,36);
+  transition: 0.3s;
+}
+
+.news:hover p{
+  background-color: rgb(33,33,36);
+  transition: 0.3s;
+}
